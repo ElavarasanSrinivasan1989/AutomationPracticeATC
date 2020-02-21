@@ -1,0 +1,298 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11641380715,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.driverInitiliaze()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "I want to add the item in cart succesfully",
+        "description": "",
+        "id": "as-a-user-i-want-to-add-item-in-the-cart-successfully;i-want-to-add-the-item-in-cart-succesfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1413897033,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.closeInstances()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 95487918,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginSteps.validateLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12485104795,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Create your account",
+            "match": {
+              "location": "LoginSteps.registerAccount(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First Name",
+                  "Elavarasan"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "Last Name",
+                  "Srinivasan"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "Email Address",
+                  "elavarasansrinivasan2020@gmail.com"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Address",
+                  "Dugar MME Gold City, Tower 4 ,Flat No 304"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Password",
+                  "Password1"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "City",
+                  "Chennai"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "PostalCode",
+                  "35007"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "Mobile Phone",
+                  "9500414365"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "Address Alias",
+                  "chidambaram"
+                ],
+                "line": 15
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28346278389,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Sign out from the application",
+            "match": {
+              "location": "LoginSteps.signOut()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21305476575,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Login with valid user name \"elavarasansrinivasan2020@gmail.com\" and password \"Password1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "elavarasansrinivasan2020@gmail.com",
+                  "offset": 28
+                },
+                {
+                  "val": "Password1",
+                  "offset": 78
+                }
+              ],
+              "location": "LoginSteps.loginToPage(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5973358387,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Navigate to My Addresses and add a new address",
+            "match": {
+              "location": "LoginSteps.addNewAdress(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First Name",
+                  "ElavarasanUpdated"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "Last Name",
+                  "SrinivasanUpdated"
+                ],
+                "line": 20
+              },
+              {
+                "cells": [
+                  "Email Address",
+                  "elavarasansrinivasan2020@gmail.com"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "Address",
+                  "Dugar1 MME Gold City, Tower 4 ,Flat No 304 Updated"
+                ],
+                "line": 22
+              },
+              {
+                "cells": [
+                  "Password",
+                  "Password1"
+                ],
+                "line": 23
+              },
+              {
+                "cells": [
+                  "City",
+                  "ChennaiUpdated"
+                ],
+                "line": 24
+              },
+              {
+                "cells": [
+                  "PostalCode",
+                  "35006"
+                ],
+                "line": 25
+              },
+              {
+                "cells": [
+                  "Mobile Phone",
+                  "9500414364"
+                ],
+                "line": 26
+              },
+              {
+                "cells": [
+                  "Address Alias",
+                  "DallasUpdated"
+                ],
+                "line": 27
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71621916198,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Navigate to \u0027Women\u0027 --\u003e Summer dresses",
+            "match": {
+              "location": "LoginSteps.navigateToWomwnsSummerDress()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7792806292,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Move to your profile and check order history and details",
+            "match": {
+              "location": "LoginSteps.checkOrderHistroy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18931107045,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Capture screenshot of the order history",
+            "match": {
+              "location": "LoginSteps.captureScreenShotOrderHistory()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5437781244,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Sign out from the application",
+            "match": {
+              "location": "LoginSteps.signOut()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "As a user i want to add item in the cart successfully",
+    "description": "",
+    "id": "as-a-user-i-want-to-add-item-in-the-cart-successfully",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  }
+]
